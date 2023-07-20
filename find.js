@@ -57,7 +57,7 @@ function findAge(friend){
 
 
 // Simplify the above.
-const foundFriend = friends.find((friend) => friend.age < 25)
+const foundFriend = friends.find(friend => friend.age < 25);
 
 
 // console.log(loopThroughAndFind(friends, findAge))
